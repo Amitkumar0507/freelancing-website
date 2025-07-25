@@ -1,0 +1,25 @@
+.job-container
+{
+    background-color: #f9f9f9;;
+    margin-left: 0px;
+    margin-top: 2cm;
+    width: 100vw;
+    height: calc(100vh - 2cm);
+    position: relative;
+    z-index: 999;
+    overflow-y: auto;
+}
+.job-name
+{
+    margin-left: 50px;
+    color: #1a73e8;
+}
+.job-grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    column-gap: 80px;
+    justify-content: flex-start;
+    padding: 20px;
+}

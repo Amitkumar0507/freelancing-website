@@ -1,0 +1,111 @@
+/* Container */
+.login-container {
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    z-index: 999;
+    position: relative;
+  }
+  
+  /* Left: Form */
+  .login-left {
+    width: 100%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+  }
+  
+  .close-button a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .login-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  
+  /* Form Fields */
+  .login-form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .login-form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .login-form button {
+    background-color:#1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Register Link */
+  .register-text {
+    color: #000;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .register-text a {
+    font-weight: bold;
+    color: #388e3c;
+    text-decoration: none;
+  }
+  
+  /* Right: Image */
+  .login-right {
+    width: 100%;
+    background-color:#f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .login-right img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+  }
+ 
+  
+  

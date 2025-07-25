@@ -1,0 +1,23 @@
+.contact-list {
+    margin-top: 2cm;
+    width: 200px;
+    background-color: #f3f4f6;
+    padding: 1rem;
+    margin-left: -0.4cm;
+    border-right: 1px solid #e5e7eb;
+  }
+  .chat-header
+{
+  color: #1a73e8;
+}
+  .contact {
+    width: 100%;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: #1a73e8;;
+    border-bottom: 1px solid black;
+  }
+  .contact:hover {
+    background-color: #e5e7eb;
+  }
+  

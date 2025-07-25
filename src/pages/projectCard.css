@@ -1,0 +1,78 @@
+.project-card {
+    width: 100%;
+    max-width: 400px;
+    background-color:aliceblue;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    margin: 10px auto;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .project-title {
+    color: #1a73e8;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .project-duration {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  .project-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .skill-badge {
+    background-color: #eef1f5;
+    color: #333;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 20px;
+  }
+  
+  .project-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+  }
+  
+  .project-links a:hover {
+    text-decoration: underline;
+  }
+  .host-user {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .user-link {
+    text-decoration: none;
+    color: #1a73e8; /* or your brand color */
+  }
+  
+  .user-link:hover {
+    text-decoration: underline;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
