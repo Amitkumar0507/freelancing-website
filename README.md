@@ -1,3 +1,3 @@
-# freeLancing-website
+# freelancing-website
 
 Mern Project
